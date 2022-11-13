@@ -107,18 +107,38 @@ button {
   margin: 0;
   font-size: 30px;
 }
+.email:visited{
+    text-decoration: none;
+}
 .email {
   margin: 0;
   color: #42b883;
 }
 .email:hover {
   font-weight: bolder;
-  color: #ff7e67;
+  color: #42b883;
+  text-decoration: none;
+}
+.email-hover:visited{
+    text-decoration: none;
+}
+.email-hover:hover {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.homepage:visited {
+    text-decoration: none;
+}
+.homepage:hover {
+    font-weight: bolder;
+    color:#ff7e67;
+    text-decoration: none;
 }
     </style>
   </head>
   <body>
-    <a href="main.html">Back to Homepage</a>
+    <a href="main.html" class="homepage">Back to Homepage</a>
     <h1>About Me</h1>
     <p class="secondary-sentence">
       Front-end Developer from Springfield, Oregon
@@ -137,7 +157,7 @@ button {
       
       <p class="second">
         I am currently on my coding journey with
-        <a href="https://shecodes.io">SheCodes</a>. What a journey this has been
+        <a href="https://shecodes.io" class="email-hover">SheCodes</a>. What a journey this has been
         thus far. I have had many ups and downs through this course. I will not
         pretend that JavaScript was definitly a chanllenge for me but I made it
         through. I am excited to continue this coding adventure and give it
